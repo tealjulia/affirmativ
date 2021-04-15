@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 
 export default function Home(props) {
 
@@ -19,9 +20,16 @@ export default function Home(props) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-light p-0 bg-light">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">Affirmativ</a>
+            
+            <a className="navbar-brand" href="#">
+              <Image 
+                src="/../public/Affirmativ.png" 
+                height={100}
+                width={100}
+              />
+            </a>
           </div>
         </nav>
       </header>

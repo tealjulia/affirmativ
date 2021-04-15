@@ -7,6 +7,9 @@ export default async (req, res) => {
     .collection('affirmations')
     .aggregate([{$sample:{size:1}}]);
 
+  if (affirmation == null || affirmation == undefined) {
+    res.json({err: 'no affirmations added'})
+  }
   res.json(affirmation);
 
 }
