@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#affirmation-container{
+  height: calc(100vh - 56px) !important;
+  background: hsla(185, 90%, 28%, 1);
+  background: linear-gradient(90deg, hsla(185, 90%, 28%, 1) 0%, hsla(0, 0%, 72%, 1) 100%);
+  background: -moz-linear-gradient(90deg, hsla(185, 90%, 28%, 1) 0%, hsla(0, 0%, 72%, 1) 100%);
+  background: -webkit-linear-gradient(90deg, hsla(185, 90%, 28%, 1) 0%, hsla(0, 0%, 72%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#077D88", endColorstr="#B7B7B7", GradientType=1 );
+}
